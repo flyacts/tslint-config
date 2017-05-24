@@ -4,17 +4,17 @@
 ## Installation
 
 ```
-$ npm install --global tslint tslint-config-flyacts
+$ npm install --global tslint @flyacts/tslint-config
 ```
 
 
 ## Usage
 
-Once the `tslint-config-flyacts` package is installed, you can use it by specifying `tslint-config-flyacts` in the extends section of your [TSLint configuration](https://palantir.github.io/tslint/usage/configuration/).
+Once the package is installed, you can use it by specifying `@flyacts/tslint-config` in the `extends` section of your [TSLint configuration](https://palantir.github.io/tslint/usage/configuration/).
 
 ```js
 {
-  "extends": "tslint-config-flyacts",
+  "extends": "@flyacts/tslint-config",
   "rules": {
     // Additional, per-project rules...
   }
