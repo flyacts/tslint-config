@@ -1,0 +1,15 @@
+{
+    "name": "tslint-config-flyacts",
+    "description": "The tslint config of FLYACTS GmbH",
+    "version": "0.1.0",
+    "keywords": [
+        "tslint",
+        "typescript",
+        "linter",
+        "coding style"
+    ],
+    "licence": "MIT",
+    "peerDependencies": {
+        "tslint": "~4.5.0"
+    }
+}
