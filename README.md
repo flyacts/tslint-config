@@ -4,6 +4,7 @@
 ## Installation
 
 ```
+$ npm config set registry "https://packages.int.flyacts.com/"
 $ npm install --global tslint @flyacts/tslint-config
 ```
 
