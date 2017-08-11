@@ -1,0 +1,12 @@
+image: node:latest
+
+stages:
+  - release
+
+Release:
+  stage: release
+  only:
+    - tags
+  script:
+    - echo -e 'registry=https://packages.int.flyacts.com/\n//packages.int.flyacts.com/:_authToken=aebb3b40-8cf7-466c-ad47-6aca14618e91' > ~/.npmrc
+    - npm publish
