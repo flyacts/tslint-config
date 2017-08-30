@@ -106,6 +106,9 @@ module.exports = {
             "check-type",
             "check-typecast",
             "check-preblock"
+        ],
+        "completed-docs": [
+            true
         ]
     }
 };
