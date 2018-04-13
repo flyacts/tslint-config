@@ -1,5 +1,5 @@
 /**
- * Copyright 2017 FLYACTS GmbH
+ * Copyright 2018 FLYACTS GmbH
  *
  * The MIT License (MIT)
  *
@@ -109,6 +109,12 @@ module.exports = {
         ],
         "completed-docs": [
             true
+        ],
+        "ordered-imports": [
+            true,
+            {
+                "grouped-imports": true
+            }
         ]
     }
 };

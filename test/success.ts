@@ -1,5 +1,5 @@
 /**
- * @copyright FLYACTS GmbH 2017
+ * @copyright FLYACTS GmbH 2018
  */
 
 /**

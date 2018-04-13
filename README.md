@@ -25,4 +25,4 @@ Once the package is installed, you can use it by specifying `@flyacts/tslint-con
 
 ## License
 
-MIT © 2017 FLYACTS GmbH
+MIT © 2018 FLYACTS GmbH
