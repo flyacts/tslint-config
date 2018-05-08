@@ -50,7 +50,6 @@ module.exports = {
             "allow-null-check",
             "allow-undefined-check"
         ],
-        "typeof-compare": true,
 
         // These rules make code maintenance easier
         "eofline": true,
@@ -108,7 +107,10 @@ module.exports = {
             "check-preblock"
         ],
         "completed-docs": [
-            true
+            true,
+            "methods",
+            "functions",
+            "classes"
         ],
         "ordered-imports": [
             true,
