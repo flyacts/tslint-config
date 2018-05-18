@@ -23,6 +23,7 @@
  */
 
 module.exports = {
+    extends: "tslint-sonarts",
     // See https://palantir.github.io/tslint/rules/
     "rules": {
         "adjacent-overload-signatures": true,
@@ -60,7 +61,7 @@ module.exports = {
         "await-promise": true,
         "no-floating-promises": true,
         "no-void-expression": true,
-        "arrow-return-shorthand": [true],
+        "arrow-return-shorthand": true,
         "class-name": true,
         "comment-format": [true, "check-space"],
         "file-header": [true, "@copyright FLYACTS GmbH 2018"],
@@ -69,7 +70,6 @@ module.exports = {
         "one-variable-per-declaration": [true, "ignore-for-loop"],
         "prefer-method-signature": true,
         "quotemark": {
-            "serverity": "error",
             "options": [
                 "single"
             ]
@@ -82,7 +82,12 @@ module.exports = {
             "method": "never",
             "constructor": "never"
         }],
-        "variable-name": [true, "allow-leading-underscore", "ban-keywords", "check-format"],
+        "variable-name": [
+            true,
+            "allow-leading-underscore",
+            "ban-keywords",
+            "check-format"
+        ],
         "whitespace": [
             true,
             "check-branch",
@@ -98,11 +103,85 @@ module.exports = {
             "functions",
             "classes"
         ],
-        "ordered-imports": [
-            true,
-            {
-                "grouped-imports": true
-            }
-        ]
+        "no-console": [
+            true
+        ],
+        "no-debugger": [true],
+        "no-submodule-imports": [true],
+        "no-bitwise": [true],
+        "no-dynamic-delete": [true],
+        "no-empty": [true],
+        "promise-function-async": [true],
+        "no-for-in-array": [true],
+        "no-use-before-declare": true,
+        "strict-boolean-expressions": [true],
+        "strict-type-predicates": [true],
+        "no-duplicate-imports": [true],
+        "align": [true],
+        "array-type": [true, "array-simple"],
+        "ordered-imports": [true, {
+            "grouped-imports": true
+        }],
+        "member-access": [true, "check-accessor", "check-constructor", "check-parameter-property"],
+        "member-ordering": [true, {
+            "order": [
+                "public-instance-field",
+                "public-static-field",
+                "protected-instance-field",
+                "protected-static-field",
+                "private-instance-field",
+                "private-static-field",
+                "public-constructor",
+                "protected-constructor",
+                "private-constructor",
+                "public-instance-method",
+                "public-static-method",
+                "protected-instance-method",
+                "protected-static-method",
+                "private-instance-method",
+                "private-static-method",
+            ]
+        }],
+        "jsdoc-format": true,
+        "no-unthrown-error": true,
+        "no-identical-conditions": true,
+        "no-all-duplicated-branches": true,
+        "no-useless-increment": true,
+        "no-case-with-or": true,
+        "no-collection-size-mischeck": true,
+        "no-ignored-initial-value": true,
+        "no-identical-conditions": true,
+        "no-element-overwrite": true,
+        "no-ignored-return": true,
+        "no-misspelled-operator": true,
+        "no-self-assignment": true,
+        "no-unthrown-error": true,
+        "no-use-of-empty-return-value": true,
+        "no-useless-intersection": true,
+        "cognitive-complexity": [true, 15],
+        "mccabe-complexity": true,
+        "use-primitive-type": true,
+        "no-dead-store": true,
+        "no-gratuitous-expressions": true,
+        "no-duplicate-string": true,
+        "no-commented-code": true,
+        "no-big-function": true,
+        "no-hardcoded-credentials": true,
+        "no-extra-semicolon": true,
+        "use-type-alias": true,
+        "prefer-immediate-return": true,
+        "parameters-max-number": true,
+        "no-useless-cast": true,
+        "no-return-type-any": true,
+        "no-non-null-assertion": true,
+        "no-return-await": true,
+        "prefer-object-spread": true,
+        "newline-per-chained-call": true,
+        "no-unnecessary-callback-wrapper": true,
+        "curly": true,
+        "no-unsafe-finally": true,
+        "max-line-length": [true, 120],
+        "encoding": true,
+        "no-redundant-jsdoc": true,
     }
 };
