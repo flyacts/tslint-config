@@ -25,15 +25,10 @@
 module.exports = {
     // See https://palantir.github.io/tslint/rules/
     "rules": {
-        // These rules find errors related to TypeScript features.
         "adjacent-overload-signatures": true,
         "prefer-for-of": true,
         "unified-signatures": true,
         "no-any": true,
-
-        // These rules catch common errors in JS programming or otherwise
-        // confusing constructs that are prone to producing bugs.
-
         "label-position": true,
         "no-arg": true,
         "no-construct": true,
@@ -50,8 +45,6 @@ module.exports = {
             "allow-null-check",
             "allow-undefined-check"
         ],
-
-        // These rules make code maintenance easier
         "eofline": true,
         "indent": [true, "spaces"],
         "no-default-export": true,
@@ -64,16 +57,9 @@ module.exports = {
                 "singleline": "never"
             }
         ],
-
-
-        // These rules catch common errors in JS programming or otherwise
-        // confusing constructs that are prone to producing bugs.
-
         "await-promise": true,
         "no-floating-promises": true,
         "no-void-expression": true,
-
-        // These rules enforce consistent style across your codebase:
         "arrow-return-shorthand": [true],
         "class-name": true,
         "comment-format": [true, "check-space"],
