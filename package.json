@@ -1,7 +1,7 @@
 {
     "name": "@flyacts/tslint-config",
     "description": "The tslint config of FLYACTS GmbH",
-    "version": "0.6.1",
+    "version": "1.0.0",
     "keywords": [
         "tslint",
         "typescript",
