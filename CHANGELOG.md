@@ -1,3 +1,9 @@
+### 1.1.0 (2018-10-09)
+
+##### New Features
+
+*  added own rule for variable length ([a605667f](https://code.flyacts.com/packages/tslint-config-flyacts/commit/a605667f729bc02cc06194cb4e557d2ae5ce159b))
+
 ## 1.0.0 (2018-05-18)
 
 ##### Chores
