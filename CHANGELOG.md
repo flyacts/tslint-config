@@ -1,3 +1,9 @@
+#### 1.1.1 (2018-10-09)
+
+##### Bug Fixes
+
+*  fixed error message typo ([13a75090](https://code.flyacts.com/packages/tslint-config-flyacts/commit/13a750900049772c28c3346b52572f596227d738))
+
 ### 1.1.0 (2018-10-09)
 
 ##### New Features
