@@ -24,6 +24,9 @@
 
 module.exports = {
     extends: "tslint-sonarts",
+    "rulesDirectory": [
+        "rules"
+    ],
     // See https://palantir.github.io/tslint/rules/
     "rules": {
         "adjacent-overload-signatures": true,
