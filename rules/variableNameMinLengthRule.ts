@@ -55,7 +55,7 @@ export class Rule extends Lint.Rules.AbstractRule {
     }
 
     public static FAILURE_STRING_FACTORY(minLength: number) {
-        return `minmum variable name length of ${minLength}`;
+        return `minimum variable name length of ${minLength}`;
     }
 
 
