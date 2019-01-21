@@ -4,8 +4,7 @@
 ## Installation
 
 ```
-$ npm config set registry "https://packages.int.flyacts.com/"
-$ npm install --global tslint @flyacts/tslint-config
+$ npm install --save tslint @flyacts/tslint-config
 ```
 
 
@@ -15,14 +14,10 @@ Once the package is installed, you can use it by specifying `@flyacts/tslint-con
 
 ```js
 {
-  "extends": "@flyacts/tslint-config",
-  "rules": {
-    // Additional, per-project rules...
-  }
+    "extends": "@flyacts/tslint-config",
+    "rules": {
+        // Additional, per-project rules...
+    }
 }
 ```
 
-
-## License
-
-MIT © 2018 FLYACTS GmbH
