@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://code.flyacts.com/packages/tslint-config-flyacts"
   },
-  "license": "MIT",
+  "license": "SEE LICENSE",
   "main": "index.js",
   "dependencies": {
     "tslint-sonarts": "1.8.0"
