@@ -1,3 +1,12 @@
+### 1.1.0 (2019-01-21)
+
+##### Chores
+
+*  update installation instructions ([99709ad0](https://code.flyacts.com/packages/tslint-config-flyacts/commit/99709ad027364d1d6bd9e07f4d75dcc636180864))
+*  update licensing information ([e8b2c4ee](https://code.flyacts.com/packages/tslint-config-flyacts/commit/e8b2c4eee6d8a71cd5c6252165ba57ade75b9526))
+*  update dependencies ([c60a1652](https://code.flyacts.com/packages/tslint-config-flyacts/commit/c60a1652f09db8afb85e4d0027929ef52bd4e5df))
+*  update file-header to 2019 and add fixer ([05cb5737](https://code.flyacts.com/packages/tslint-config-flyacts/commit/05cb5737d57c0b587896d28f9a0ba1c368a86a25))
+
 ## 1.0.0 (2018-05-18)
 
 ##### Chores
