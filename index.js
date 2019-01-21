@@ -64,7 +64,11 @@ module.exports = {
         "arrow-return-shorthand": true,
         "class-name": true,
         "comment-format": [true, "check-space"],
-        "file-header": [true, "@copyright FLYACTS GmbH 2018"],
+        "file-header": [
+                true,
+                "@copyright FLYACTS GmbH 2019",
+                "@copyright FLYACTS GmbH 2019"
+        ],
         "no-consecutive-blank-lines": [true, 2],
         "no-unnecessary-callback-wrapper": true,
         "one-variable-per-declaration": [true, "ignore-for-loop"],
