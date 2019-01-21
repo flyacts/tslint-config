@@ -1,3 +1,13 @@
+#### 1.2.1 (2019-01-21)
+
+##### New Features
+
+*  added own rule for variable length ([a605667f](https://github.com/flyacts/tslint-config/commit/a605667f729bc02cc06194cb4e557d2ae5ce159b))
+
+##### Bug Fixes
+
+*  fixed error message typo ([13a75090](https://github.com/flyacts/tslint-config/commit/13a750900049772c28c3346b52572f596227d738))
+
 ### 1.2.0 (2019-01-21)
 
 ##### Chores
