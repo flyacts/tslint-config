@@ -1,3 +1,7 @@
+#### 1.2.2 (2020-04-06)
+
+* update file-header to 2020 ([ca7e6e5](https://github.com/flyacts/tslint-config/commit/ca7e6e5f0a068237c8c2a1db62b46ef18dfafaad))
+
 #### 1.2.1 (2019-01-21)
 
 ##### New Features
