@@ -69,8 +69,8 @@ module.exports = {
         "comment-format": [true, "check-space"],
         "file-header": [
                 true,
-                "@copyright FLYACTS GmbH 2019",
-                "@copyright FLYACTS GmbH 2019"
+                "@copyright FLYACTS GmbH 2020",
+                "@copyright FLYACTS GmbH 2020"
         ],
         "no-consecutive-blank-lines": [true, 2],
         "no-unnecessary-callback-wrapper": true,
