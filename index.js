@@ -76,11 +76,7 @@ module.exports = {
         "no-unnecessary-callback-wrapper": true,
         "one-variable-per-declaration": [true, "ignore-for-loop"],
         "prefer-method-signature": true,
-        "quotemark": {
-            "options": [
-                "single"
-            ]
-        },
+        "quotemark":[true, "single", "avoid-escape", "avoid-template"],
         "semicolon": [true, "always"],
         "space-before-function-paren": [true, {
             "anonymous": "never",
@@ -114,14 +110,20 @@ module.exports = {
             true
         ],
         "no-debugger": [true],
-        "no-submodule-imports": [true],
+        "no-submodule-imports": [
+            true,
+            "@angular",
+            "zone.js",
+            "rxjs",
+            "lodash"
+        ],
         "no-bitwise": [true],
         "no-dynamic-delete": [true],
         "no-empty": [true],
         "promise-function-async": [true],
         "no-for-in-array": [true],
         "no-use-before-declare": true,
-        "strict-boolean-expressions": [true],
+        "strict-boolean-expressions": [false],
         "strict-type-predicates": [true],
         "no-duplicate-imports": [true],
         "align": [true],
@@ -183,7 +185,7 @@ module.exports = {
         "no-non-null-assertion": true,
         "no-return-await": true,
         "prefer-object-spread": true,
-        "newline-per-chained-call": true,
+        "newline-per-chained-call": false,
         "no-unnecessary-callback-wrapper": true,
         "curly": true,
         "no-unsafe-finally": true,
