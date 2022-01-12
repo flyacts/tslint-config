@@ -69,8 +69,8 @@ module.exports = {
         "comment-format": [true, "check-space"],
         "file-header": [
                 true,
-                "@copyright FLYACTS GmbH 2020",
-                "@copyright FLYACTS GmbH 2020"
+                "@copyright FLYACTS GmbH 2022",
+                "@copyright FLYACTS GmbH 2022"
         ],
         "no-consecutive-blank-lines": [true, 2],
         "no-unnecessary-callback-wrapper": true,
@@ -157,12 +157,10 @@ module.exports = {
         "no-case-with-or": true,
         "no-collection-size-mischeck": true,
         "no-ignored-initial-value": true,
-        "no-identical-conditions": true,
         "no-element-overwrite": true,
         "no-ignored-return": true,
         "no-misspelled-operator": true,
         "no-self-assignment": true,
-        "no-unthrown-error": true,
         "no-use-of-empty-return-value": true,
         "no-useless-intersection": true,
         "cognitive-complexity": [true, 15],
@@ -184,7 +182,6 @@ module.exports = {
         "no-return-await": true,
         "prefer-object-spread": true,
         "newline-per-chained-call": true,
-        "no-unnecessary-callback-wrapper": true,
         "curly": true,
         "no-unsafe-finally": true,
         "max-line-length": [true, 120],
