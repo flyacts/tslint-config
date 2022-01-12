@@ -1,3 +1,10 @@
+### 1.3.0 (2022-01-12)
+
+##### Chores
+
+*  updates file header to 2022 and removes duplicated rules ([5381757a](https://github.com/flyacts/tslint-config/commit/5381757aeb2856cb712f03a24d1c1b9417adcef6))
+*  update file-header to 2020 ([ca7e6e5f](https://github.com/flyacts/tslint-config/commit/ca7e6e5f0a068237c8c2a1db62b46ef18dfafaad))
+
 #### 1.2.2 (2020-04-06)
 
 ##### Chores
